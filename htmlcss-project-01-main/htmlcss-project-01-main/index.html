@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Project Rocksky 41 </title>
+
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- Embed fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    </head>
+    <body>
+        <!-- PC header -->
+        <header class="fixed-header">
+            <div class="content">
+                <!-- Navbar -->
+                <nav class="navbar">
+                    <!-- Tablet/mobile menu -->
+                    <label for="menu-checkbox" class="toggle-menu">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                fill="currentColor"
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                            />
+                        </svg>
+                    </label>
+
+                    <!-- Logo -->
+                    <a href="#">
+                        <img
+                            class="logo"
+                            src="./assets/img/logo.svg"
+                            alt="Rocksky 41"
+                        />
+                    </a>
+
+                    <!-- Navigation -->
+                    <ul id="pc-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="show-on-mobile separate">
+                            <a href="#!">Sign in</a>
+                        </li>
+                        <li class="show-on-mobile"><a href="#!">Sign up</a></li>
+                    </ul>
+
+                    <!-- Action -->
+                    <div class="actions">
+                        <a href="#!" class="action-link">Sign in</a>
+                        <a href="#!" class="btn action-btn">Sign up</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Tablet/mobile header -->
+        <header class="mobile-header">
+            <input
+                type="checkbox"
+                name=""
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+
+            <!-- Overlay -->
+            <label for="menu-checkbox" class="menu-overlay"></label>
+
+            <!-- Menu content -->
+            <div class="menu-drawer">
+                <!-- Logo -->
+                <a href="#">
+                    <img src="./assets/img/logo.svg" alt="Rocksky 41" />
+                </a>
+
+                <!-- Navigation -->
+                <ul id="mobile-nav"></ul>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero -->
+            <div class="hero-wrap">
+                <div class="content">
+                    <div class="info">
+                        <p class="sub-title">Welcome to Rocksky 41</p>
+                        <h1 class="title">
+                            Organize advice and support reduce game addicts
+                        </h1>
+                        <p class="desc">
+                            We are Luker Ha Noi of University FPT . Project of Rocksky 41 helps reduce game addict in Viet Nam
+                        </p>
+                        <a href="#!" class="btn hero-cta">More About Us</a>
+                    </div>
+
+                    <img
+                        src="./assets/img/hero-img.svg"
+                        alt="Discover a place you'll love to live."
+                        class="hero-img"
+                    />
+                </div>
+            </div>
+
+            <!-- Clients -->
+            <div class="clients">
+                <div class="content">
+                    <div class="row">
+                        <!-- Logo -->
+                        <img src="./assets/img/logo.svg" alt="Rocksky 41" />
+
+                        <!-- Stars -->
+                        <div class="stars">
+                            <img src="./assets/img/star.svg" alt="Star" />
+                            <img src="./assets/img/star.svg" alt="Star" />
+                            <img src="./assets/img/star.svg" alt="Star" />
+                            <img src="./assets/img/star.svg" alt="Star" />
+                            <img src="./assets/img/star.svg" alt="Star" />
+                        </div>
+                    </div>
+                    <div class="row row-desc">
+                        <p class="desc">
+                            Project of Luker make solution for bad side of game industry
+                        </p>
+                        <p class="desc hide-on-mobile">
+                            
+                        </p>
+                    </div>
+                    <div class="images">
+                        <a href="#!">
+                            <img
+                                src="./assets/img/luk.jpg"
+                                alt="Client 1"
+                            />
+                        </a>
+                        <a href="#!">
+                            
+                        </a>
+                        <a href="#!">
+                            
+                        </a>
+                        <a href="#!">
+                           
+                            
+                        </a>
+                        <a href="#!">
+                            
+                        
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guides -->
+            <div id="services" class="guides">
+                <div class="content">
+                    <h2 class="sub-title">How its works?</h2>
+                    <p class="desc">
+                        The organization will launch support activities to help reduce gaming addiction in Vietnam today. And a plan to help develop intelligence when playing games.
+                    </p>
+
+                    <!-- List guide -->
+                    <ul class="list-guide">
+                        <li class="guide-item">
+                            <img
+                                src="./assets/img/buyer.svg"
+                                alt="Buyer"
+                                class="icon"
+                            />
+                            <h3 class="title">Advise and support</h3>
+                            <a href="#!" class="link">
+                                <span>Solution</span>
+                                <img
+                                    src="./assets/img/arrow-right.svg"
+                                    alt="Arrow right"
+                                    class="arrow"
+                                />
+                            </a>
+                        </li>
+                        <li class="guide-item">
+                            <img
+                                src="./assets/img/renter.svg"
+                                alt="Renter"
+                                class="icon"
+                            />
+                            <h3 class="title">Activity</h3>
+                            <a href="#!" class="link">
+                                <span>Reduce time play</span>
+                                <img
+                                    src="./assets/img/arrow-right.svg"
+                                    alt="Arrow right"
+                                    class="arrow"
+                                />
+                            </a>
+                        </li>
+                        <li class="guide-item">
+                            <img
+                                src="./assets/img/seller.svg"
+                                alt="Seller"
+                                class="icon"
+                            />
+                            <h3 class="title">Game good for Brain</h3>
+                            <a href="#!" class="link">
+                                <span>Increase intelligence</span>
+                                <img
+                                    src="./assets/img/arrow-right.svg"
+                                    alt="Arrow right"
+                                    class="arrow"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="guide-cta">
+                        <a href="#!" class="btn">Sell Full Guidelines</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured -->
+            <div id="features" class="featured">
+                <div class="content">
+                    <header>
+                        <h2 class="sub-title">Featured Properties</h2>
+                        <div class="row">
+                            <p class="desc">
+                                Everything you need to know when you're looking
+                            </p>
+                            <a href="#!" class="link">
+                                <span>View All Properties</span>
+                                <img
+                                    src="./assets/img/arrow-right.svg"
+                                    alt="Arrow right"
+                                    class="arrow"
+                                />
+                            </a>
+                        </div>
+                    </header>
+
+                    <div class="list">
+                        <!-- Featured item 1 -->
+                        <div class="item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/featured-1.jpg"
+                                    alt="Nikko Apartments"
+                                    class="thumb"
+                                />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="#!">Advice and Support</a>
+                                </h3>
+                                <p class="desc">
+                                    Advice and chat to help reduce game addicts
+                                </p>
+                                <div class="info">
+                                    <img
+                                        src="./assets/img/beds.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label">30 Worker</span>
+
+                                    <img
+                                        src="./assets/img/both.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label">30 Minutes</span>
+
+                                    <img
+                                        src="./assets/img/sqft.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Featured item 2 -->
+                        <div class="item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/featured-2.jpg"
+                                    alt="CouCou Homestead"
+                                    class="thumb"
+                                />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="#!" class="line-clamp"
+                                        >Outside Activity</a
+                                    >
+                                </h3>
+                                <p
+                                    class="desc line-clamp"
+                                    style="--line-clamp: 3"
+                                >
+                                Outdoor activities that help you reduce gaming time
+                                </p>
+                                <div class="info">
+                                    <img
+                                        src="./assets/img/beds.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label"></span>
+
+                                    <img
+                                        src="./assets/img/both.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label"></span>
+
+                                    <img
+                                        src="./assets/img/sqft.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Featured item 3 -->
+                        <div class="item">
+                            <a href="#!">
+                                <img
+                                    src="./assets/img/featured-3.jpg"
+                                    alt="CouCou Homestead"
+                                    class="thumb"
+                                />
+                            </a>
+                            <div class="body">
+                                <h3 class="title">
+                                    <a href="#!">Smart increase game</a>
+                                </h3>
+                                <p class="desc">
+                                    Playing games with reasonable time will help you improve your intelligence.
+                                </p>
+                                <div class="info">
+                                    <img
+                                        src="./assets/img/beds.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label"></span>
+
+                                    <img
+                                        src="./assets/img/both.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label"></span>
+
+                                    <img
+                                        src="./assets/img/sqft.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    <span class="label"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="view-all show-on-mobile">
+                        <a href="#!" class="btn">View All Properties</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div id="resources" class="stats">
+                <div class="content">
+                    <div class="row">
+                        <div class="img-block">
+                            <img
+                                class="image"
+                                src="./assets/img/stats-img.jpg"
+                                alt="You’ve found a neighborhood you love."
+                            />
+
+                            <!-- Trend -->
+                            <div class="stats-trend">
+                                <div class="row">
+                                    <strong class="value">3.24B Player in 2021</strong>
+                                    <img
+                                        src="./assets/img/arrow-trend-up.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                </div>
+                                <p class="desc">
+                                    
+                                </p>
+                                <div class="separate"></div>
+                                <div class="avatar-block">
+                                    <div class="avatar-group">
+                                        <img
+                                            src="./assets/img/avatar-1.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/avatar-2.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                    </div>
+                                    <div class="avatar-group">
+                                        <img
+                                            src="./assets/img/avatar-3.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/avatar-4.webp"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/avatar-5.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <div
+                                            class="avatar"
+                                            style="--bg-color: #1f3bb1"
+                                        >
+                                            R
+                                        </div>
+                                    </div>
+                                    <div class="avatar-group">
+                                        <div
+                                            class="avatar"
+                                            style="--bg-color: #24d6d9"
+                                        >
+                                            FJ
+                                        </div>
+                                        <img
+                                            src="./assets/img/avatar-6.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <div
+                                            class="avatar"
+                                            style="--bg-color: #f8c120"
+                                        >
+                                            S
+                                        </div>
+                                    </div>
+                                    <div class="avatar-group">
+                                        <img
+                                            src="./assets/img/avatar-7.jpeg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/avatar-8.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/avatar-9.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <div
+                                            class="avatar"
+                                            style="--bg-color: #f97f6b"
+                                        >
+                                            JJ
+                                        </div>
+                                    </div>
+                                    <div class="avatar-group">
+                                        <img
+                                            src="./assets/img/avatar-10.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <div
+                                            class="avatar"
+                                            style="--bg-color: #73a242"
+                                        >
+                                            QV
+                                        </div>
+                                    </div>
+                                    <div class="avatar-group">
+                                        <img
+                                            src="./assets/img/avatar-11.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <img
+                                            src="./assets/img/avatar-12.jpg"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                    </div>
+                                    <div class="avatar-group">
+                                        <img
+                                            src="./assets/img/avatar-13.jfif"
+                                            alt=""
+                                            class="avatar"
+                                        />
+                                        <div
+                                            class="avatar"
+                                            style="--bg-color: #1f3bb0"
+                                        >
+                                            UI
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2 class="sub-title">
+                                According to VTV , In Asia have 6.3% game addict in 2023
+                            </h2>
+                            <p class="desc">
+                                According to MIC ,In Viet Nam. Survey 589 teenager, have 20,09% addict game in Covid. Survey 460 student, The highest rate of addict game is 66.1%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row row-qty">
+                        <div class="qty-item">
+                            <strong class="qty">6.3%</strong>
+                            <p class="qty-desc">Addict game in Asia</p>
+                        </div>
+                        <div class="qty-item">
+                            <strong class="qty">20.09%</strong>
+                            <p class="qty-desc">Addict game in Covid</p>
+                        </div>
+                        <div class="qty-item">
+                            <strong class="qty">66.1%</strong>
+                            <p class="qty-desc">Highest rate of addict game</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subscription -->
+            <div id="contact" class="subscription">
+                <div class="content">
+                    <div class="body">
+                        <div class="info">
+                            <h2 class="sub-title line-clamp">
+                                Email: rs41luk@gmail.com
+                                Hotline: ....   
+                                
+                            
+                            </h2>
+                            <p class="desc line-clamp" style="--line-clamp: 3">
+                                Contact us for more information !
+                            </p>
+                            <a href="#!" class="btn">Subscribe</a>
+                        </div>
+                        <img
+                            src="./assets/img/newletter.svg"
+                            alt="Subscribe to our Newsletter!"
+                            class="image"
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="content">
+                <div class="row row-top">
+                    <!-- Product column -->
+                    <div class="column">
+                        
+                        
+                        </ul>
+                    </div>
+
+                    <!-- Resources column -->
+                    <div class="column">
+                        
+                        </ul>
+                    </div>
+
+                    <!-- Company column -->
+                    <div class="column">
+                        
+                        </ul>
+                    </div>
+
+                    <!-- Get in touch column -->
+                    <div class="column">
+                        <h3 class="heading"></h3>
+                        <p class="desc">
+                            
+                        </p>
+                        <div class="social">
+                            <a href="#!" class="social-link">
+                                <img src="./assets/img/facebook.svg" alt="" />
+                            </a>
+                            <a href="#!" class="social-link">
+                                <img src="./assets/img/twitter.svg" alt="" />
+                            </a>
+                            <a href="#!" class="social-link">
+                                <img src="./assets/img/linkedin.svg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-bottom">
+                    <img
+                        src="./assets/img/logo.svg"
+                        alt="Rocksky 41"
+                        class="logo"
+                    />
+                    <p class="copyright">
+                        Rocksky 41 - Luk Global
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const pcNav = document.querySelector("#pc-nav");
+            const mobileNav = document.querySelector("#mobile-nav");
+
+            // Copy from PC nav -> Mobile nav
+            mobileNav.innerHTML = pcNav.innerHTML;
+        </script>
+    </body>
+</html>
